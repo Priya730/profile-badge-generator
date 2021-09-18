@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IEEE PDEU Profile Badge Generator</title>
+    <title>IEEE PDEU SC Profile Badge Generator</title>
     <link rel="icon" href="image\IEEE PDEU .png" type="image/icon type">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/d90af38b7c.js" crossorigin="anonymous"></script>
@@ -13,7 +13,7 @@
     <header>
         <div class="header-flex-wrapper">
           <div class="title">
-            IEEE PDEU Profile Badge Generator
+            IEEE PDEU SC Profile Badge Generator
           </div>
         
           <ul class="social-media">
@@ -32,9 +32,10 @@
 
     <div class="main-container">
         <div class="input-panel">
+<p><b>Thank You for Participating in the workshop! Generate your profile badge in two simple steps:</b></p>
           <div class="input">
-            <label>Profile Picture</label>
-            <button class="button" onclick="uploadImage()">Upload Image</button>
+            <label><b>Upload your Profile Picture</b></label>
+            <button class="button" onclick="uploadImage()"> Upload Image</button>
             <input
               class="profile-input"
               type="file"
@@ -44,7 +45,7 @@
             />
           </div>
           <div class="input">
-            <label>Image Shape</label>
+            <label><b>Select image shape of your choice</b></label>
             <div class="select-container">
               <div
                 class="select"
@@ -59,11 +60,8 @@
               </div>
             </div>
           </div>
-
-          <p>Thank You for Participating in the workshop! Generate your profile badge in two simple steps:</p>
-          <p><b>1. Upload your profile image.</b></p>
-          <p><b>2. Download and showcase your badges on your favorite social media and don't forget to tag us :)</b></p>
-        
+          <p>Download your generated Workshop Badge by clicking on the ⬇️ icon</p>
+          <p>Follow us & show us your enthusiasm by posting your badges on your favourite social media.</p> 
           <ul class="social-media">
             <li class="sm">
                 <a href="https://www.instagram.com/ieeepdeu/" target="_blank" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
@@ -75,11 +73,12 @@
                 <a href="mailto:ieee@sot.pdpu.ac.in" target="_blank" title="Mail"><i class="far fa-envelope" aria-hidden="true"></i></a>
             </li>
         </ul>
-          <p>Go ahead and share your learnings along with this Badge.</p><br>
+        <p>And don't forget to tag us :) we will respost your badges on our official social media pages</p><br>
           <p>
             Inspired by <i>DevFest India.</i> Made by <a href="https://linkedin.com/in/priyasrivastava730" target="_blank">Priya Srivastava</a>
           </p>
         </div>
+        
         <div class="preview-panel">
           <canvas></canvas>
           <div class="download-fab" onclick="download()" id="download">
